@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overview</title>
+    <style>
+        .column {
+  float: left;
+  width: 33%;
+}
+
+.shade {
+    background-color: #eee;
+    border-left: 1px solid #666;
+}
+
+
+
+.alternating tr:nth-child(even) { 
+            background-color: #eee; 
+        } 
+
+        table.alternating { 
+
+            width: 100%; 
+        } 
+    </style>
+</head>
+<body>
+    <div>
+        <button>new</button> <button>edit</button> <button>logout</button>
+    </div>
+    <div class="row">
+        <div class="column">
+            <table class="alternating">
+                <tr><th>Tasks</th></tr>
+                <tr><td>one</td></tr>
+                <tr><td>two</td></tr>
+                <tr><td>three</td></tr>
+                <tr><td>four</td></tr>
+                <tr><td>five</td></tr>
+                <tr><td>six</td></tr>
+            </table>
+        </div>
+        <div class="column shade">
+            <table>
+                <tr><th>Due Date</th></tr>
+                <tr><td>tomorrow</td></tr>
+                <tr><td>today</td></tr>
+                <tr><td>today</td></tr>
+                <tr><td>tomorrow</td></tr>
+                <tr><td>tomorrow</td></tr>
+                <tr><td>today</td></tr>
+            </table>
+        </div>
+        <div class="column shade">
+            <table>
+                <tr><th>Priority</th></tr>
+                <tr><td>low</td></tr>
+                <tr><td>low</td></tr>
+                <tr><td>low</td></tr>
+                <tr><td>high</td></tr>
+                <tr><td>medium</td></tr>
+                <tr><td>medium</td></tr>
+            </table>
+        </div>
+      </div>
+</body>
+</html>
